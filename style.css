@@ -125,6 +125,9 @@ button {
 @media screen and (min-width: 1440px) {
   body {
     margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     max-width: 144rem;
@@ -134,7 +137,7 @@ button {
 
   main {
     width: 52.5rem;
-    margin-top: 15rem;
+    margin-top: 0;
   }
   h1 {
     text-align: left;
