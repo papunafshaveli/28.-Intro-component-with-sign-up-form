@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 37.5rem;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(./images/bg-intro-mobile.png);
+  background-color: #ff7979;
+  padding: 8.8rem 1.9rem;
+  font-family: "Poppins";
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.292px;
+  margin-bottom: 1.6rem;
+}
+
+.offer {
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
+
+.price-div {
+  padding: 1.8rem 6.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.4rem;
+  margin-bottom: 2.4rem;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 1rem;
+  background: #5e54a4;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.price-info {
+  text-align: center;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  letter-spacing: 0.268px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 2.4rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.input-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.info {
+  border: 1px solid #dedede;
+  border-radius: 0.5rem;
+  position: relative;
+  padding-left: 2rem;
+  height: 5.6rem;
+  color: #3d3b48;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing: 0.25px;
+}
+
+em {
+  color: #ff7979;
+  text-align: right;
+  font-size: 1.7rem;
+  font-weight: 500;
+  display: none;
+}
+
+.terms {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2.6rem;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    max-width: 144rem;
+    background-image: url(./images/bg-intro-desktop.png);
+    padding: 12.1rem 16.5rem;
+  }
+
+  main {
+    width: 52.5rem;
+    margin-top: 12.5rem;
+  }
+  h1 {
+    text-align: left;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 5.5rem;
+    letter-spacing: -0.521px;
+    margin-bottom: 3rem;
+  }
+
+  .offer {
+    text-align: left;
+  }
+
+  .price-div {
+    padding: 1.7rem 11.2rem;
+    margin-top: 0;
+    height: 6rem;
+    border-radius: 1rem;
+    background: #5e54a4;
+  }
+
+  section {
+    gap: 2.4rem;
+    padding: 4rem;
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  .input-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .info {
+    padding-left: 3rem;
+    height: 5.6rem;
+    color: #3d3b48;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.6rem;
+    letter-spacing: 0.25rem;
+  }
+
+  em {
+    color: #ff7979;
+    text-align: right;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 500;
+    display: none;
+  }
+
+  button {
+    height: 5.6rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #38cc8b;
+    color: #fff;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .terms {
+    color: #bab7d4;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+  }
+
+  .term-span {
+    color: #ff7979;
+    font-weight: 700;
+  }
+}
